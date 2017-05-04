@@ -1,0 +1,790 @@
+body, h1{
+	margin:0;
+	padding:0;
+}
+.nav{
+	margin-top:50px;	
+}
+
+header, nav, article, footer, address{
+	display:block;	
+	}
+	
+.container {
+  width:80%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ul{
+float:right;
+margin-top:40px;	
+	}
+ul li{
+	list-style:none;
+	display:inline;
+	
+}
+
+ul li a{
+	text-decoration:none;	
+	color:#222222;
+	font-family:Roboto;
+	font-weight:500;0
+	font-size:20px;
+	text-transform:uppercase;
+	padding:0 20px 0 20px;
+
+}
+
+#brand{
+	float:left;
+	margin-top:30px;
+}
+
+header{
+	width:100%;
+	min-height:850px;
+	height:auto;
+	margin-top:-17px;
+	background:url(../image/image.png) no-repeat center top;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-size:cover;	
+	position:relative;
+		}
+
+h1{
+    margin-top: -595px;
+    z-index: 1000;
+    position: absolute;
+	font-family:Roboto;
+	font-weight:500;
+	font-size:85px;
+	margin-left:25%;
+	margin-right:25%;
+	color:#222222;
+}
+h3{
+    margin-top: -460px;
+    z-index: 1005;
+    position: absolute;
+	font-family:Roboto;
+	font-weight:400;
+	font-size:35px;
+	margin-left:22%;
+	margin-right:22%;
+	text-align:center;
+	line-height:1.5;
+	color:#222222;	}
+	
+	
+.prvi {
+	width:30%;	
+	float:left;
+	padding-top:25px;
+	margin-left: 2%;
+	padding-bottom:60px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:0.9em;
+	
+}
+.drugi {
+	width:30%;	
+	float:left;
+	padding:25px 20px;
+	background-color:#ededed;
+	padding-top:25px;
+	padding-left:1;
+	padding-bottom:60px;
+	font-family: 'Open Sans', sans-serif;
+		font-size:0.9em;
+	}
+.treci {
+	width:30%;	
+	float:left;
+	padding:25px 20px;
+	padding-top:25px;
+	
+	padding-bottom:60px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:0.9em;
+	}
+	
+p,h2{
+	text-align:center;
+	line-height:1.8;
+}
+h2{
+color:#222222;
+	}
+.light{
+color:#666666;	
+padding:0 25px;
+	}
+img{
+	width:103px;
+	margin:0 auto;
+	display:block;
+	}
+.logo{
+	width:auto;
+	
+}
+.line{
+	height:2pt;	
+	width:30pt;
+	}
+.line-red{
+	height:2pt;	
+	width:38pt;
+	}
+.clear{
+	clear:both;	
+	}
+.pozicije{
+	padding-top:75px;
+	color:#999999;
+	font-family:Roboto;
+	font-weight:300;
+	text-align:center;
+	text-transform:uppercase;	
+}
+.poslovi{
+	font-family:Roboto;
+	font-weight:500;
+	color:#222222;
+	font-size:3em;
+	}
+.zaposljavamo{
+	font-family:Roboto;
+	font-weight:300;
+	font-size:1.7em;
+	padding-bottom:30px;
+	padding-top:25px;
+}
+
+.levo{
+	float:left;	
+	}
+.desno{
+	float:right;
+	margin-top: 120px;
+    padding-right: 100px;
+	}
+.podnaslov{
+	font-family:Roboto;
+	font-weight:500;
+	font-size:1.5em;
+	float:left;
+	color:#222222;
+	padding-top:10px;
+}
+
+.opis{
+	font-family:Roboto;
+	font-weight:300;
+	font-size:1.1em;
+	float:left;
+	text-align:left;	
+	}
+.znanje{
+float:left;	
+	}
+ ul{
+	padding-left:0;	
+	}
+.znanje li{
+	
+	font-family:Roboto;
+	font-weight:500;
+	font-size:0.9em;
+	color:#c41230;
+	margin-right:10px;
+	border:1px solid #bbbbbb;
+	float:left;	
+	padding:9px 20px;
+	margin-top:0;
+	}
+	
+		
+.podnaslov-beli{
+	font-family:Roboto;
+	font-weight:500;
+	font-size:1.5em;
+	float:left;
+	color:#FFF;
+}
+
+.opis-beli{
+	font-family:Roboto;
+	font-weight:300;
+	font-size:1.1em;
+	float:left;
+	text-align:left;	
+	color:#FFF;
+	}
+.znanje-beli{
+float:left;	
+	}
+ ul{
+	padding-left:0;	
+	margin-top: 10px;
+	}
+.znanje-beli li{
+	
+	font-family:Roboto;
+	font-weight:500;
+	font-size:0.9em;
+	color:#FFF;
+	margin-right:10px;
+	border:1px solid #FFF;
+	float:left;	
+	padding:9px 20px;
+	margin-top:0;
+	}	
+.button{
+	text-decoration:none;
+	color:#222222;
+	font-family:Roboto;
+	font-weight:500;
+	font-size:1.3em;
+	border:2px solid #222222;
+	padding:15px 35px;
+	letter-spacing: 3px;
+	}	
+
+	
+.button-beli{
+	text-decoration:none;
+	color:#FFF;
+	font-family:Roboto;
+	font-weight:500;
+	font-size:1.3em;
+	border:2px solid #FFF;
+	padding:15px 35px;
+	letter-spacing: 3px;
+	}	
+.tamno{
+	background-color:#222222;
+	height:270px;
+	margin-top:20px;
+}
+.zaposljavamo-lev{
+	font-family:Roboto;
+	font-weight:300;
+	font-size:1.5em;
+	padding-bottom:30px;
+	padding-top:25px;
+	text-align:left;
+	max-width:1300px;
+	margin:0 auto;	
+	}
+.more{
+	margin-top:25px;
+	font-family:Roboto;
+	font-weight:500;
+	background-color:#d7d7d7;
+	text-decoration:none;
+	color:#222222;
+	margin:0 auto;
+	padding:15px;
+	margin-left: 45%;
+}	
+.element{
+	height:60px;
+}
+.element2{
+	height:90px;
+}
+.social-icon{
+	float:left;
+	padding:0 5px;
+	width:60px;
+	height:60px;
+	}	
+.drustvene-mreze{
+width:140px;
+margin:0 auto;
+}
+.icons{
+	font-size:40px;
+	color:#c41230;
+	float:left;
+	padding-right:20px;
+	}
+#main-footer{
+	background-color:#222222;
+	height:300px;
+	margin-top:40px;
+}
+address{
+	font-family:Roboto;
+	font-size:500;
+	color:#999;
+	font-style:normal;
+	font-size:15px;
+	line-height:1.9;
+	color:#666666;
+	width:32%;
+	float:left;
+	padding-top:40px;
+	margin-left:1%;
+}
+.address{
+	float:left;	
+	font-size: 20px!important;
+    margin-top: 22px;	
+	color:#FFF;
+	font-family:Roboto;
+	font-weight:500;
+}
+#second-footer{
+	background-color:#1e1e1e;
+	height:70px;
+	padding-top:10px;	
+	padding-right:16%;
+}
+.drugi-footer {
+	margin:0;
+	padding-top:22px;
+	font-family:Roboto;
+	font-weight:300;
+	color:#5f5f5f;
+	font-size:14px;
+	}
+.f-left{
+	float:left;	
+}
+.f-right{
+	float:right;
+}
+.f-list{
+	color:#666666;
+	font-family:Roboto;
+	font-size:25px;
+}
+	
+.f-list-link{
+	color:#666666;
+	font-family:Roboto;
+	font-size:14px;
+	text-transform:lowercase;
+	}
+.novi{
+	color:#666666;
+	
+}
+
+@media screen and (max-width: 1520px) {
+	.prvi {
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:50px;
+}
+.drugi {
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:50px;
+	}
+.treci {
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:50px;
+	}
+h1{
+	font-size:65px;
+	text-align:center;
+}
+.container {
+  width:90%;
+	}
+
+}
+@media screen and (max-width: 1520px) {
+	h3{
+	font-size:1.8em;
+	text-align:center;	
+		}	
+	h1{
+	    margin-left: 28%;	
+		}
+	}
+@media screen and (max-width: 1050px) {
+	h3{
+	font-size:1.5em;
+		}	
+	h1{
+		font-size:55px;
+	    margin-left: 28%;	
+		}
+}
+	@media screen and (max-width: 950px) {
+	h3{
+	font-size:1.3em;
+		}	
+	h1{
+		font-size:45px;
+	    margin-left: 28%;	
+		}
+	}
+	@media screen and (max-width: 780px) {
+	h3{
+	font-size:1.1em;	
+		}	
+	h1{
+		font-size:40px;
+	    margin-left: 28%;	
+		}
+	}
+@media screen and (min-width: 1800px) {
+	header{
+	min-height:1200px;
+}
+}
+
+@media screen and (max-width: 920px){
+	.desno {
+    float: right;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    margin-top: -106px;
+	padding:0 12px;
+	}
+	.opis{
+		max-width:430px;	
+		font-size:1.05em;
+		}
+	
+	.opis-beli {
+	margin-right:25px;	
+	max-width: 430px;
+	font-size:1.05em;
+	}
+	.button{
+	
+	  	
+	   font-size: 0.8em;
+       padding: 9px 8px;	
+		}
+	.button-beli{
+	font-size:0.8em;		
+	padding:9px 8px;
+	}
+	.tamno{
+	height:435px;	
+		}
+
+	.prvi {
+	width:27%;
+	margin-right: 3%;	
+	}
+	.drugi {
+	width:27%;	
+	}
+	.treci {
+	width:27%;	
+	}
+	.zaposljavamo {
+	font-size:1.4em;		
+	}
+	.zaposljavamo-lev{
+	font-size:1.3em;	
+		}
+	address{
+	font-size:13px;	
+		}	
+	.drugi-footer {
+	font-size:10px;	
+		}	
+	.znanje li{
+		padding:4px 6px;		
+	}
+	.znanje-beli li{
+		padding:4px 6px;		
+	}
+		#second-footer{
+			padding-right:2%;
+		}
+	
+	}
+
+/*hamburger menu css*/
+
+@media screen and (min-width: 1101px){
+	.hamburger{	
+	display:none;
+	}
+}
+
+@media screen and (max-width: 1100px){
+	
+	ul li{
+		padding:13px 0;	
+		text-align:center;
+		color: #cccccc;	
+		}
+	
+	.nav{
+		background-color:rgba(0,0,0,0.9);
+		position:absolute;
+		right:0;
+		width:100%;
+		margin-top:80px;
+		display:none;
+		}
+	ul li a{
+		color:#FFF;
+		font-size:22px;	
+		display:block;	
+	}
+	.hamburger{
+		margin-top: 30px;
+    	display: block;
+    	right: 10px;
+    	top: 0;
+    	position: absolute;
+    	font-size: 34px;
+		}
+	#toggle-menu:checked ~ .nav{
+		display:block;	
+		}
+		#toggle-menu{
+			display:none;	
+			}
+		.menu-off{
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+    top: 0px;
+    right: 8px;
+    width: 33px;
+    height: 32px;
+    z-index: 3000;
+    margin-top: 30px;
+	cursor:pointer;
+		}
+	}
+	
+@media screen and (max-width: 540px){
+	header{
+		min-width:567px !important;
+		min-height:645px;	
+		}
+		.mobilni-hide{
+		visibility:hidden;
+		}
+		
+		h1 {
+    font-size: 4.5em;
+    margin-left: 26%;
+    padding-top: 100px;
+		}
+		h3 {
+    font-size: 1.5em;
+    padding-top: 181px;
+    margin-left: 24%;
+    min-width: 300px;
+		}
+		
+		.prvi {
+    width: 540px;
+    min-width: 400px;
+    margin-right: 10%;
+}
+
+.drugi {
+    width: 545px;
+    min-width: 400px;
+    margin-right: 10%;
+}
+.treci {
+    width: 540px;
+    min-width: 400px;
+    margin-right: 10%;
+}
+.light {
+    color: #666666;
+    padding: 0 29px;
+    font-size: 30px;
+}
+.container{
+	max-width:550px;	
+	position:relative;
+}
+.pozicije {
+	width:500px;
+	font-size:1.5em;	
+	}
+	.poslovi {
+		width:500px;	
+		}
+	.line-red {
+		padding-left:40%;	
+		}
+	.podnaslov-beli {
+		color:#000;	
+		}
+	.opis-beli{
+		color:#000;	
+		}
+	.button{
+		visibility:hidden;	
+		}
+	.button-beli{
+		visibility:hidden;	
+		}
+	.znanje-beli li {
+		color:#000;
+		font-size:1.5em;
+		border:none;	
+		}
+	
+	.tamno{
+		background:#FFF;
+		height:50px;	
+		}
+		.zaposljavamo {
+   	 		font-size: 1.8em;
+    		width: 500px;
+		}
+		
+		.podnaslov{
+			font-size:2em;	
+			}
+		.podnaslov-beli{
+			font-size:2em;	
+			}
+		.opis{
+			font-size:1.8em;
+			}
+		.opis-beli{
+			font-size:1.8em;	
+			}
+		.znanje li{
+			font-size:1.5em;
+			border:none;	
+			}
+		.zaposljavamo-lev {
+    font-size: 1.8em;
+    width: 500px;
+		}
+		
+		.drustvene-mreze{
+			margin-left:50%;	
+			}
+	address{
+	width:100%;	
+	font-size:25px;
+					}
+					#main-footer {
+    background-color: #222222;
+    height: 1100px;
+    /* margin: 0; */
+    /* margin-right: 0; */
+    width: 565px;
+    margin-top: 40px;
+}
+	.icons {
+    font-size: 46px;
+    color: #c41230;
+    float: left;
+    padding-right: 30px;
+    padding-top: 18px;
+}
+.address{
+	    font-size: 28px!important;	
+	}
+	#second-footer {
+    padding-right: 5%;
+    width: 547px;
+    height: 100px;
+	}
+	.drugi-footer {
+   	margin-left: 27px;
+    font-size: 25px;
+}
+#ln{
+	position:absolute;
+	bottom:20px;
+	left:5px;
+	font-size:55px;	
+	}
+#tw{
+	position:absolute;
+	bottom:15px;
+	font-size:55px;	
+	left:90px;	
+	}	
+#site{
+	position:absolute;
+	bottom:20px;
+	font-size:25px;	
+	left:250px;	
+	}	
+	ul li a{
+		display:block;	
+		font-size:3em;
+		font-family:Roboto;
+		font-weight:300;
+		padding:25px;
+		
+		}
+	.nav{
+		min-height:550px;
+		left:0;
+		right:0;	
+		z-index:3000;
+		width:550px;
+		width: 566px;
+    	margin-left: -13px;
+		}
+	.ne{
+	visibility:hidden;	
+		}
+	.kontakt-static{
+	color: #9b9b9b;
+	font-family:Roboto;
+	font-weight:500;
+    font-size: 1.5em;
+    text-transform: uppercase;	
+	padding-left: 20px;
+    float: left;
+	margin-top: 130px;
+}
+	.ikonice-meni-t{
+	font-size: 18px;
+    float: left;
+    margin-left: 181px;
+    margin-top: 86px;	
+		}
+	#col-tw{
+		color:#9b9b9b;
+		
+		}
+	.ikonice-meni-f{
+		font-size: 18px;
+    float: left;
+    /* margin-left: 110px; */
+    margin-top: 80px;	
+		}
+	#col-fb{
+		color:#9b9b9b;
+		
+		}}
+		
+		
+@media screen and (min-width: 542px){
+	.kontakt-static{
+		visibility:hidden;	
+	}
+	.ikonice-meni-t{
+		visibility:hidden;
+		}
+	.ikonice-meni-f{
+	visibility:hidden;	
+		}
+	}
